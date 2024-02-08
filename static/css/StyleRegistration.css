@@ -1,0 +1,23 @@
+body {
+    font-family: 'press Start 2p';
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    background-color: #d6b996;
+}
+
+input {
+    background-color: #d6b996;
+}
+
+#reg_button {
+    font-family: 'press Start 2p'
+}
+
+button {
+    background-color: #d6b996;
+}

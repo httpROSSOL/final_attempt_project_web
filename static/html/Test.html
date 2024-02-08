@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/StyleTest.css">
+    <script src="../static/js/QuizScript.js"></script>
+    <title>тест</title>
+</head>
+
+<body>
+<center>
+    <h1>тест на программиста</h1>
+</center>
+<div>
+
+    <div class="question">
+        <div>стринги это трусы или много строк?</div>
+        <div>
+            <input type="radio" name="q1" value="трусы"/>
+            <label for="q1">трусы</label>
+        </div>
+        <div>
+            <input type="radio" name="q1" value="строки"/>
+            <label for="q1">строки</label>
+        </div>
+    </div>
+
+    <div class="question">
+
+        <legend>какое число для вас более привлекательное?</legend>
+
+        <input type="number" name="q2"/>
+
+    </div>
+
+    <div class="question">
+        <div></div>
+
+        <legend>за какой навык больше платят?</legend>
+
+        <input type="radio" name="q3" value="опыт"/>
+        <label for="kraken">опыт разработки</label><br/>
+
+        <input type="radio" name="q3" value="произовдительность"/>
+        <label for="sasquatch">произовдительность разработчика</label><br/>
+
+        <input type="radio" name="q3" value="умения"/>
+        <label for="mothman">умения забрасывать человека прогерскими сленгами</label>
+
+    </div>
+
+    <div class="question">
+        <div>опишите ваши параметры ?</div>
+        <div>
+            <input type="range" id="volume" name="q4" min="40" max="300"/>
+            <label for="volume">рост</label>
+        </div>
+
+        <div>
+            <input type="range" id="cowbell" name="q4" min="0" max="300" value="90" step="50"/>
+            <label for="cowbell">вес</label>
+        </div>
+
+    </div>
+    <div class="question">
+        <p>как вы себя идентифицируете?:</p>
+
+        <div>
+            <input type="color" id="head" name="q5" value="##000000"/>
+            <label for="head">Head</label>
+        </div>
+
+        <div>
+            <input type="color" id="body" name="q5" value="##000000"/>
+            <label for="body">Body</label>
+        </div>
+
+    </div>
+
+    <div class="question">
+        <div> list = [1, 2, 3, 4]; l[-1] = ?</div>
+        <div>
+            <input type="text" name="q6"/>
+        </div>
+    </div>
+    <div class="question">
+
+        <label for="phone">
+            угадай мой номер телефона))))<br/>
+            <small>Format: +7 123-456-7890</small>
+        </label>
+
+        <input type="tel" id="phone" name="q7" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+
+    </div>
+    <button id="button" onclick="SubmitAnswers();">submit</button>
+</body>
+
+</html>

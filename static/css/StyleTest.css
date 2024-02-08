@@ -1,0 +1,56 @@
+body {
+    font-family: 'press Start 2p';
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.question {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    opacity: 0.5;
+    height: 70px;
+    width: 550px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    background-color: #d6b996;
+    font-family: 'press Start 2p';
+    font-size: 30px;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: #d6b996;
+    color: white;
+    min-height: 100vh;
+    display: grid;
+}
+
+p {
+    margin: 0;
+}

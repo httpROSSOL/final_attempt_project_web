@@ -1,0 +1,16 @@
+body {
+    font-family: 'press Start 2p';
+    background-color: #ffe4c4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#login_button {
+    font-family: 'press Start 2p';
+    background-color: #d6b996;
+}
+
+input {
+    background-color: #d6b996;
+}
